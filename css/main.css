@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+		url('../fonts/Roboto-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+		url('../fonts/Roboto-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+		url('../fonts/Roboto-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: 'Roboto', 'Arial', sans-serif;
+	background-color: darkslategray;
+}
+
+.box {
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 30px 0;
+	justify-content: center;
+	background-color: cornflowerblue;
+}
+
+.js-input {
+	width: 400px;
+	padding: 5px 10px;
+	font-size: 16px;
+}
+
+button {
+	padding: 5px 20px;
+}
+
+.list {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.film {
+	width: 300px;
+	margin-right: 10px;
+	min-height: 600px;
+	margin-bottom: 20px;
+	background-color: white;
+	border-radius: 8px;
+}
+
+.film > div {
+	padding: 5px 10px;
+}
+
+.film > img {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
